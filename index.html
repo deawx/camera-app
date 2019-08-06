@@ -1,0 +1,55 @@
+<html lang=”en”>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Name of your awesome camera app -->
+    <title>Camera App</title>
+    <!-- Link to your main style sheet-->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header class="header-cam">
+      <h1 class="header-title">Camera</h1>
+    </header>
+    <!-- Camera -->
+    <main>
+      <div class="camera">
+        <!-- Camera sensor -->
+        <canvas id="camera--sensor"></canvas>
+        <!-- Camera view -->
+        <video id="camera--view" autoplay playsinline></video>
+        <!-- Camera frame -->
+        <img src="images/invalid-name.png" alt="hhhhhhh" class="frame-info">
+        <img src="images/path.png" alt="hhhhhhh" class="frame">
+      </div>
+      <div class="result" hidden>
+        <!-- Camera output -->
+        <img src="images" src="//:0" alt="hhhhhhh" id="camera--output">
+        <!-- Camera frame -->
+        <img src="images/human-back@3x.png" alt="hhhhhhh" class="frame">
+      </div>
+
+    </main>
+    <footer class="footer-cam">
+      <div class="camera-on">
+        <!-- Camera trigger -->
+        <button id="camera--trigger">
+          <img src="images/photo.png" alt="btn-photo">
+        </button>
+      </div>
+      <div class="camera-off" hidden>
+        <button id="camera-icon" class="button">
+          <img src="images/camera@2x.png" alt="btn-photo">
+        </button>
+        <a class="button download" href="#">Something to do</a>
+      </div>
+    </footer class="footer-cam">
+    <!-- Reference to your JavaScript file -->
+    <script src="app.js"></script>
+  </body>
+
+</html>
+<!-- <%= image_tag("4924AE9A-ADBF-49C6-97C3-1A893DD822AC.svg", :id => "frame") %> -->
