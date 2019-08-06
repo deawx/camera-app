@@ -1,7 +1,7 @@
 // Set constraints for the video stream
 var constraints = {
     video: {
-        facingMode: "enviroment"
+        facingMode: "environment"
     },
     audio: false
 };
